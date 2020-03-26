@@ -13,11 +13,11 @@ $("body").on("keyup keydown keypress change", ".department input", function (e) 
 
 	});
 	if (running_total >= 0 && running_total <= 20) {
-		$("total_budget").addClass("warning");
+		$(".total_budget").addClass("warning");
 	} else if (running_total < 0) {
-		$("total_budget").addClass("error").removeClass("warning");
+		$(".total_budget").addClass("error").removeClass("warning");
 	} else {
-		$("total_budget").removeClass("error warning");
+		$(".total_budget").removeClass("error warning");
 	}
 	$(".total_budget span").text(running_total);
 });
