@@ -58,6 +58,23 @@ input {
     padding: .5em;
 }
 
+#warning_text, #error_text {
+    font-size: .5em;
+    opacity: 0;
+}
+
+.warning_reveal {
+    font-size: 2em;
+    color: #e8d82a;
+    opacity: 1;
+}
+
+.error_reveal {
+    font-size: 1.25em;
+    color: #e00c0a;
+    opacity: 1;
+}
+
 /* Tablet/Desktop overrides */
 @media(min-width: 681px) {}
 
